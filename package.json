@@ -1,0 +1,29 @@
+{
+  "name": "e2e-tests-js",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "cypress:open": "node_modules/.bin/cypress open",
+    "cypress:run": "node_modules/.bin/cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lflimeira/e2e-tests-js.git"
+  },
+  "keywords": [
+    "e2e",
+    "tests",
+    "acceptance",
+    "JavaScript",
+    "JS"
+  ],
+  "author": "Luiz Felipe de Oliva Limeira (lflimeira)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lflimeira/e2e-tests-js/issues"
+  },
+  "homepage": "https://github.com/lflimeira/e2e-tests-js#readme",
+  "devDependencies": {
+    "cypress": "^3.4.1"
+  }
+}
