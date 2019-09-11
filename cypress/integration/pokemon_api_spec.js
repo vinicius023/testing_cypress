@@ -21,7 +21,7 @@ describe('Pokemon API', () => {
   })
 
   it('should not return bulbasaur', () => {
-    const pokemon = cy.request('POST', 'http://pokeapi.co/api/v2/pokemon/3/')
+    const pokemon = cy.request('POST', 'http://pokeapi.co/api/v2/pokemon/2/')
 
     pokemon.its('body.forms')
       .each(value =>
