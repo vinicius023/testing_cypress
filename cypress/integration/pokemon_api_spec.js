@@ -29,7 +29,7 @@ describe('Pokemon API', () => {
       )
   })
   it('should return butterfree', () => {
-    const pokemon = cy.request('POST', 'http://pokeapi.co/api/v2/pokemon/12/')
+    const pokemon = cy.request('POST', 'http://pokeapi.co/api/v2/pokemon/13/')
 
     pokemon.its('body.forms')
       .each(value =>
