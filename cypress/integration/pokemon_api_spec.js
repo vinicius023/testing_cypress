@@ -29,4 +29,12 @@ describe('Pokemon API', () => {
       )
   })
 
+  it('should not return any', () => {
+    const pokemon = cy.request('POST', 'http://pokeapi.co/api/v2/pokemon/20/')
+
+    pokemon.its('body.forms')
+      .each(value =>
+        expect(value.name).to.eq('any')
+      )
+  })
 })
